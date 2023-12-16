@@ -7,7 +7,9 @@ import { OnlyChildrenProps } from "../../types";
 const Container:React.FC<OnlyChildrenProps> = ({ children }) => {
 	return (
 		<Section>
-			{children}
+			<div>
+				{children}
+			</div>
 		</Section>
 	)
 }

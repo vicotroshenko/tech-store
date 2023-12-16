@@ -4,25 +4,33 @@ export type OnlyChildrenProps = {
 	children: ReactNode;
 }
 
-export type Media = {
-	mobile: number;
-	tablet: number;
-	desctop: number;
-};
 
-export type Colors = {
-	black_text: string;
-	white_text: string;
-	button_color: string;
-	link: string;
-	footer_subtitle: string;
-	item_red: string;
-	clear_btn: string;
-	in_stock_color: string;
-	star_btn_color: string;
-	bg_primary: string;
-	bg_primary_gradient: string;
-	bg_second: string;
-	bg_dark: string;
-};
+export type Theme = {
+	common: {
+		[x: string]: string;
+	},
+	store: {
+		[x: string]: string;
+	},
+	buttons:{
+		[x: string]: string;
+	},
+	input: {
+		[x: string]: string;
+	},
+	media: {
+		[x: string]: string;
+	};
+}
 
+
+export type CardItemElemtnts = {
+	id: number;
+	title: string,
+	price: number,
+	quantity: number,
+	total: number,
+	discountPercentage: number,
+	discountedPrice: number,
+	thumbnail: string;
+}
