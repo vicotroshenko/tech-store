@@ -1,12 +1,8 @@
 import styled from "styled-components";
-import { Theme } from "../../../types";
+import { IAboutUsCardProps } from "../../../types";
 
-interface IAdvInContainerProps {
-  theme: Theme;
-  placement: string;
-};
 
-export const AdvInContainer = styled.div<IAdvInContainerProps>`
+export const AdvInContainer = styled.div<Pick<IAboutUsCardProps, "placement">>`
   display: grid;
   grid-template-columns: 1fr;
   align-items: flex-start;

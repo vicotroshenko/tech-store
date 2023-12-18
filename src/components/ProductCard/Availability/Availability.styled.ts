@@ -1,9 +1,8 @@
 import styled from "styled-components";
+import { IAvailabilityProps } from "../../../types";
 
-type TextProps = {
-	available: boolean;
-}
-export const AvailableTextColor = styled.div<TextProps>`
+
+export const AvailableTextColor = styled.div<IAvailabilityProps>`
 	display: flex;
 	column-gap: 6px;
 	align-items: center;

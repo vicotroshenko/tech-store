@@ -1,12 +1,10 @@
 import {ReactComponent as ItemAvailable} from "../../../images/itemAvailable.svg";
 import {ReactComponent as ItemNeedCheck} from "../../../images/itemNeedCheck.svg";
+import { IAvailabilityProps } from "../../../types";
 import { AvailableTextColor } from "./Availability.styled";
 
-type AvailabilityProps = {
-	available: boolean;
-}
 
-const Availability: React.FC<AvailabilityProps> = ({ available }) => {
+const Availability: React.FC<IAvailabilityProps> = ({ available }) => {
 
 	if(available) {
 		return (

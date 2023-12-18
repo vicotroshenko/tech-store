@@ -1,11 +1,6 @@
 import styled from "styled-components";
-import { Theme } from "../../../types";
 
-type TextContainerProps = {
-	theme: Theme;
-}
-
-export const TextContainer = styled.div<TextContainerProps>`
+export const TextContainer = styled.div`
 	max-width: 565px;
 	margin: 0 auto;
 	h2 {

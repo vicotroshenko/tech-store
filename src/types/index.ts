@@ -1,11 +1,10 @@
 import { ReactNode } from "react";
 
-export type OnlyChildrenProps = {
+export interface OnlyChildrenProps {
 	children: ReactNode;
 }
 
-
-export type Theme = {
+export interface Theme {
 	common: {
 		[x: string]: string;
 	},
@@ -23,8 +22,11 @@ export type Theme = {
 	};
 }
 
+export interface OnlyChildrenProp {
+	children: ReactNode;
+}
 
-export type CardItemElemtnts = {
+export interface CardItemElemtnts {
 	id: number;
 	title: string,
 	price: number,
@@ -33,4 +35,22 @@ export type CardItemElemtnts = {
 	discountPercentage: number,
 	discountedPrice: number,
 	thumbnail: string;
+}
+
+export interface IAboutUsCardProps extends OnlyChildrenProp{
+	placement: "left" | "right";
+	image: string;
+	alt: string;
+}
+
+export interface ISearchActiveProps {
+	searchActive?: boolean;
+}
+
+export interface IAmountGoodsProps {
+	amount?: number;
+}
+
+export interface IAvailabilityProps {
+	available: boolean;
 }

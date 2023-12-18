@@ -1,17 +1,11 @@
-import { ReactNode } from "react";
 import Container from "../../Container/Container";
 import AUImage from "../AUImage/AUImage";
 import AUText from "../AUText/AUText";
 import { AdvInContainer } from './AUCard.styled';
+import { IAboutUsCardProps } from "../../../types";
 
-type AUCardProps = {
-	placement: "left" | "right";
-	image: string;
-	alt: string;
-	children: ReactNode;
-}
 
-const AUCard: React.FC<AUCardProps> = ({ image, alt, placement, children }) => {
+const AUCard: React.FC<IAboutUsCardProps> = ({ image, alt, placement, children }) => {
 	return (
 		<>
 			<Container>
