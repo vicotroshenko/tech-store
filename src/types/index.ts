@@ -54,3 +54,8 @@ export interface IAmountGoodsProps {
 export interface IAvailabilityProps {
 	available: boolean;
 }
+
+export interface FooterLinkListProps {
+  title: string;
+  linkList: {name: string, link: string}[];
+}
