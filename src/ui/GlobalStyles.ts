@@ -20,7 +20,11 @@ export default createGlobalStyle`
   img {
     display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
   }
   h1 {
     margin: 0;
