@@ -1,4 +1,4 @@
-import { IAboutUsCardProps } from "../../../types";
+import { IAboutUsCardProps } from "../../../../types";
 import { NewsItem } from "./SocialMediaItem.styled";
 
 interface SocialMediaItemPros extends Pick<IAboutUsCardProps, "image" | "alt"> {

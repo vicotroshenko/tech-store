@@ -59,3 +59,16 @@ export interface FooterLinkListProps {
   title: string;
   linkList: {name: string, link: string}[];
 }
+
+export interface ITextProps {
+	title: string;
+	text: string;
+}
+
+export interface ISlide {
+	slide: number;
+}
+
+export interface IImageProps {
+	image: string;
+}

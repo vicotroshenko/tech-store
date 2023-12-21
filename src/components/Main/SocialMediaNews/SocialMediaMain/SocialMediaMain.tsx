@@ -1,4 +1,4 @@
-import Container from "../../Container/Container";
+import Container from "../../../Container/Container";
 import SocialMediaItem from "../SocialMediaItem/SocialMediaItem";
 import { MediaList } from "./SocialMediaMain.styled";
 import mediaPic1 from "../../../images/media/media1.jpg";

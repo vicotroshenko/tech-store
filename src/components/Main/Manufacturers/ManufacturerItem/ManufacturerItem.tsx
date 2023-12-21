@@ -1,4 +1,4 @@
-import { IAboutUsCardProps } from "../../../types";
+import { IAboutUsCardProps } from "../../../../types";
 import { LogoItem } from "./ManufacturerItem.styled";
 
 

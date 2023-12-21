@@ -5,7 +5,7 @@ import msiLogo from '../../../images/companies/msi.png';
 import razerLogo from '../../../images/companies/razer.png';
 import roccatLogo from '../../../images/companies/roccat.png';
 import thermaltakeLogo from '../../../images/companies/thermaltake.png';
-import Container from '../../Container/Container';
+import Container from '../../../Container/Container';
 import ManufacturerItem from '../ManufacturerItem/ManufacturerItem';
 import { ManufacturerList } from './ManufacturersMain.styled';
 

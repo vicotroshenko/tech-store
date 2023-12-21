@@ -1,8 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "../../ui/GlobalStyles";
 import theme from "../../ui/theme";
-import ReviewItem from "../ReviewSlider/ReviewItem/ReviewItem";
-//import CardItem from "../ProductCard/CardItem/CardItem";
+import HeaderMain from "../Header/HeaderMain/HeaderMain";
 
 const App: React.FC = () => {
   return (
@@ -12,7 +11,7 @@ const App: React.FC = () => {
         {/* <ul>
           <CardItem/>
         </ul> */}
-        <ReviewItem/>
+        <HeaderMain/>
       </main>
     </ThemeProvider>
   );

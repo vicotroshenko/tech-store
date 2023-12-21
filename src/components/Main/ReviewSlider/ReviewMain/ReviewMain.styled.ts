@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
-type SliderProps = {
-  slide: number;
-};
-
 export const ReviewConainer = styled.div`
   width: 100%;
-  max-width: 1160px;
+  max-width: 860px;
+  margin: 0 auto;
   background-color: ${({ theme }) => theme.common.bg_third};
   padding: 49px 119px 56px 119px;
   overflow: hidden;
+
+  @media (min-width: ${({ theme }) => theme.media.desctop}){
+    max-width: 1160px;
+  }
 
   & > p {
     font-size: 96px;
@@ -23,6 +24,7 @@ export const ReviewConainer = styled.div`
 export const SliderMenu = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 22px;
   & > a {
     display: inline-block;
@@ -43,34 +45,6 @@ export const SliderMenu = styled.div`
     &:focus {
       outline: 2px solid ${({ theme }) => theme.buttons.primery};
     }
-  }
-`;
-
-export const Slider = styled.div<SliderProps>`
-  display: inline-block;
-  width: 850px;
-  overflow: hidden;
-
-  & ul {
-    display: flex;
-    justify-content: center;
-    width: calc(4 * 850px);
-    overflow: hidden;
-    list-style-type: none;
-    transition: all 300ms linear;
-    transform: translateX(-${(props) => props.slide * 850}px);
-  }
-
-  & > li {
-    width: 850px;
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 400;
-  }
-  & p:last-child {
-    text-align: right;
-    margin-top: 7px;
-    line-height: 2;
   }
 `;
 
