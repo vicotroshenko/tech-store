@@ -1,20 +1,12 @@
 import styled from "styled-components";
 
-export const Item = styled.li`
+export const ItemWrapper = styled.li`
   max-width: 235px;
-  min-height: 346px;
-  border: 1px solid black;
+  height: 346px;
   border-radius: 12px;
   list-style-type: none;
 
-  & h3 {
-    font-size: 13px;
-    font-weight: 400;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  & > a {
+  & > div {
     display: block;
     width: 100%;
     height: 100%;
@@ -25,12 +17,21 @@ export const Item = styled.li`
   }
 `;
 
+export const Subtitle = styled.h3`
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+`
+
 export const ImageContainer = styled.div`
   width: 100%;
   max-width: 150px;
   height: 100%;
   max-height: 150px;
   margin: 0 auto;
+  overflow: hidden;
 `;
 
 export const ReviewsLink = styled.a`

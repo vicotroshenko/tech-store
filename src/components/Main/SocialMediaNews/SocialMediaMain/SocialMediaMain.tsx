@@ -1,15 +1,15 @@
 import Container from "../../../Container/Container";
 import SocialMediaItem from "../SocialMediaItem/SocialMediaItem";
 import { MediaList } from "./SocialMediaMain.styled";
-import mediaPic1 from "../../../images/media/media1.jpg";
-import mediaPic2 from "../../../images/media/media2.jpg";
-import mediaPic3 from "../../../images/media/media3.jpg";
-import mediaPic4 from "../../../images/media/media4.jpg";
-import mediaPic5 from "../../../images/media/media5.jpg";
-import mediaPic6 from "../../../images/media/media6.jpg";
-import mediaPic7 from "../../../images/media/media7.jpg";
-import mediaPic8 from "../../../images/media/media8.jpg";
-import mediaPic9 from "../../../images/media/media9.jpg";
+import mediaPic1 from "../../../../images/media/media1.jpg";
+import mediaPic2 from "../../../../images/media/media2.jpg";
+import mediaPic3 from "../../../../images/media/media3.jpg";
+import mediaPic4 from "../../../../images/media/media4.jpg";
+import mediaPic5 from "../../../../images/media/media5.jpg";
+import mediaPic6 from "../../../../images/media/media6.jpg";
+import mediaPic7 from "../../../../images/media/media7.jpg";
+import mediaPic8 from "../../../../images/media/media8.jpg";
+import mediaPic9 from "../../../../images/media/media9.jpg";
 
 const SocialMediaMain = () => {
   return (

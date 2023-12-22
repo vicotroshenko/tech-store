@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { IImageProps } from "../../../types";
 
-export const BusinessCard = styled.a<IImageProps>`
+export const BusinessCard = styled.div<IImageProps>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,7 +11,6 @@ export const BusinessCard = styled.a<IImageProps>`
   min-height: 346px;
   padding-top: 160px;
   padding-bottom: 31px;
-  text-decoration: none;
   background-image: url(${({ image }) => image});
   background-position: top;
   background-repeat: no-repeat;
@@ -33,14 +32,6 @@ export const BusinessCard = styled.a<IImageProps>`
     color: ${({ theme }) => theme.common.text_secondary};
   }
 
-  & > p:last-child {
-    display: block;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 1.15;
-    color: ${({ theme }) => theme.common.text_secondary};
-    text-decoration-line: underline;
-  }
 
   @keyframes bg_move {
     0% {
