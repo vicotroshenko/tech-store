@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/tech-store/static/css/main.e6c13ad2.css",
+    "main.js": "/tech-store/static/js/main.6d3d7775.js",
+    "static/js/787.a4ff59af.chunk.js": "/tech-store/static/js/787.a4ff59af.chunk.js",
+    "static/media/bussinesCard7.jpg": "/tech-store/static/media/bussinesCard7.643665f3e97d648df2f0.jpg",
+    "static/media/hero.jpg": "/tech-store/static/media/hero.126889615ea40a2b8c46.jpg",
+    "static/media/bussinesCard6.jpg": "/tech-store/static/media/bussinesCard6.bb6bbf15651ff6b709c7.jpg",
+    "static/media/bussinesCard10.jpg": "/tech-store/static/media/bussinesCard10.52a4e13b947ec2d20f1d.jpg",
+    "static/media/bussinesCard9.jpg": "/tech-store/static/media/bussinesCard9.004aa16cdf7290f05d7e.jpg",
+    "static/media/bussinesCard5.jpg": "/tech-store/static/media/bussinesCard5.70ebb4107e36397da6a1.jpg",
+    "static/media/bussinesCard8.jpg": "/tech-store/static/media/bussinesCard8.cfc29e49e8e20e835ef0.jpg",
+    "static/media/bussinesCard3.jpg": "/tech-store/static/media/bussinesCard3.301e4239dd04507ee136.jpg",
+    "static/media/bussinesCard2.jpg": "/tech-store/static/media/bussinesCard2.7fbed32f3ef3381ed44b.jpg",
+    "static/media/adata.png": "/tech-store/static/media/adata.f14fad46b180549c2964.png",
+    "static/media/shopingCart.svg": "/tech-store/static/media/shopingCart.c53972599f1a2431580888dfba6435fb.svg",
+    "static/media/instagram-icon.svg": "/tech-store/static/media/instagram-icon.78cb27839f3d662b2357ff9947996943.svg",
+    "static/media/searchBtn.svg": "/tech-store/static/media/searchBtn.6233898fea2ccbd48c4f4901afe8e63e.svg",
+    "static/media/itemNeedCheck.svg": "/tech-store/static/media/itemNeedCheck.0f27b48bcf978ca57b637556884692d8.svg",
+    "static/media/logo.svg": "/tech-store/static/media/logo.0235f490732b7a5541555bfc585d8c98.svg",
+    "index.html": "/tech-store/index.html",
+    "static/media/facebook-icon.svg": "/tech-store/static/media/facebook-icon.b9ef23cb6300d4ce5683833e01fd33e1.svg",
+    "static/media/arrow-right.svg": "/tech-store/static/media/arrow-right.71d01e7370ab5b63e7f296867dc3e1de.svg",
+    "static/media/arrow-left.svg": "/tech-store/static/media/arrow-left.1234f8ebc83e7cba177a7fc307962b43.svg",
+    "static/media/close-icon.svg": "/tech-store/static/media/close-icon.6e1a2db9c8dab50c24c4932e54f7d17c.svg",
+    "static/media/itemAvailable.svg": "/tech-store/static/media/itemAvailable.0e51d97932c7912b0d00652395236767.svg",
+    "main.e6c13ad2.css.map": "/tech-store/static/css/main.e6c13ad2.css.map",
+    "main.6d3d7775.js.map": "/tech-store/static/js/main.6d3d7775.js.map",
+    "787.a4ff59af.chunk.js.map": "/tech-store/static/js/787.a4ff59af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6d3d7775.js"
+  ]
+}
