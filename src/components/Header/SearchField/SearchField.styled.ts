@@ -20,7 +20,7 @@ export const SearchLabel = styled.label<ISearchActiveProps>`
 
 export const SearchInput = styled.input`
   width: 100%;
-  height: 60px;
+  /* height: 60px; */
   padding: 0 20px 0 30px;
   border: none;
   border-radius: 31px;
