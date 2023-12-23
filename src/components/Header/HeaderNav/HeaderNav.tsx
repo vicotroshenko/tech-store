@@ -6,25 +6,10 @@ const HeaderNav: React.FC<ISearchActiveProps> = ({ searchActive = false }) => {
     <NavContainer searchActive={searchActive}>
       <NavList>
         <li>
-          <NavLink href="/">Laptops</NavLink>
+          <NavLink href="/">Products</NavLink>
         </li>
         <li>
-          <NavLink href="/">Desktop PCs</NavLink>
-        </li>
-        <li>
-          <NavLink href="/">Networking Devices</NavLink>
-        </li>
-        <li>
-          <NavLink href="/">Printers & Scanners</NavLink>
-        </li>
-        <li>
-          <NavLink href="/">PC Parts</NavLink>
-        </li>
-        <li>
-          <NavLink href="/">All Other Products</NavLink>
-        </li>
-        <li>
-          <NavLink href="/">Repairs</NavLink>
+          <NavLink href="/">Shopping Cart</NavLink>
         </li>
         <li data-name="deals">
           <NavLink href="/">Our Deals</NavLink>

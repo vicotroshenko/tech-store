@@ -9,6 +9,7 @@ export const Header = styled.header`
   max-width: 1400px;
   min-height: 60px;
   margin: 0 auto;
+  padding: 10px;
   overflow: hidden;
   }
 `;

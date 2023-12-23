@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { IAvailabilityProps } from "../../../types";
+import { ItemWrapper } from "../CardItem/CardItem.styled";
 
 
 export const AvailableTextColor = styled.div<IAvailabilityProps>`
@@ -14,5 +15,11 @@ export const AvailableTextColor = styled.div<IAvailabilityProps>`
 	& > svg {
 		width: 10px;
 		height: 10px;
+	}
+	${ItemWrapper}:hover & {
+		display: none;
+	}
+	${ItemWrapper}:focus & {
+		display: none;
 	}
 `;

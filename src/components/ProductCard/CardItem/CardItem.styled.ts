@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const ItemWrapper = styled.li`
+  position: relative;
   max-width: 235px;
   height: 346px;
   border-radius: 12px;
   list-style-type: none;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 250ms ease;
 
   & > div {
     display: block;
@@ -14,6 +18,13 @@ export const ItemWrapper = styled.li`
     padding: 0 25px 0 25px;
     text-decoration: none;
     color: inherit;
+  }
+  &:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding-top: 200px;
+  }
+  &:focus {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
 `;
 
@@ -32,6 +43,25 @@ export const ImageContainer = styled.div`
   max-height: 150px;
   margin: 0 auto;
   overflow: hidden;
+  transition: all 250ms ease;
+  ${ItemWrapper}:hover & {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    max-height: 60%;
+    z-index: 4;
+  }
+  ${ItemWrapper}:focus & {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    max-height: 50%;
+    z-index: 4;
+  }
 `;
 
 export const ReviewsLink = styled.a`
