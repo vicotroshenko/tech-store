@@ -14,6 +14,7 @@ import BC_5 from "../../../images/bussinessCards/bussinesCard5.jpg";
 import BC_6 from "../../../images/bussinessCards/bussinesCard6.jpg";
 import BC_7 from "../../../images/bussinessCards/bussinesCard7.jpg";
 import BC_8 from "../../../images/bussinessCards/bussinesCard8.jpg";
+import { IData } from "../../../redux/productsSlice";
 
 
 const TopProducts = () => {
@@ -38,49 +39,64 @@ const TopProducts = () => {
     dispatch(prodOperations.getProductsByCategory("groceries"));
     dispatch(prodOperations.getProductsByCategory("furniture"));
     dispatch(prodOperations.getProductsByCategory("sunglasses"));
-    dispatch(prodOperations.getAllProducts());
   }, [dispatch]);
 
   return (
     <Container>
       <CategoryList>
         <CategorBusinessCard image={BC_10} title={""} />
-        {tops && tops?.map((item) => <CardItem key={item.id} items={item} />)}
+        <div>
+        {tops && tops?.map((item: IData) => <CardItem key={item.id} items={item} />)}
+        </div>
       </CategoryList>
       <CategoryList>
         <CategorBusinessCard image={BC_2} title={"Smartphones"} />
+        <div>
         {smartphones &&
-          smartphones?.map((item) => <CardItem key={item.id} items={item} />)}
+          smartphones?.map((item: IData) => <CardItem key={item.id} items={item} />)}
+        </div>
       </CategoryList>
       <CategoryList>
         <CategorBusinessCard image={BC_3} title={"Laptops"} />
-        {laptops &&
-          laptops?.map((item) => <CardItem key={item.id} items={item} />)}
+        <div>
+          {laptops &&
+          laptops?.map((item: IData) => <CardItem key={item.id} items={item} />)}
+        </div>
       </CategoryList>
       <CategoryList>
         <CategorBusinessCard image={BC_9} title={"Fragrances"} />
-        {fragrances &&
-          fragrances?.map((item) => <CardItem key={item.id} items={item} />)}
+        <div>
+          {fragrances &&
+          fragrances?.map((item: IData) => <CardItem key={item.id} items={item} />)}
+        </div>
       </CategoryList>
       <CategoryList>
         <CategorBusinessCard image={BC_5} title={"Skincare"} />
-        {skincare &&
-          skincare?.map((item) => <CardItem key={item.id} items={item} />)}
+        <div>
+          {skincare &&
+          skincare?.map((item: IData) => <CardItem key={item.id} items={item} />)}
+        </div>
       </CategoryList>
       <CategoryList>
         <CategorBusinessCard image={BC_6} title={"Groceries"} />
-        {groceries &&
-          groceries?.map((item) => <CardItem key={item.id} items={item} />)}
+        <div>
+          {groceries &&
+          groceries?.map((item: IData) => <CardItem key={item.id} items={item} />)}
+        </div>
       </CategoryList>
       <CategoryList>
         <CategorBusinessCard image={BC_7} title={"Furniture"} />
-        {furniture &&
-          furniture?.map((item) => <CardItem key={item.id} items={item} />)}
+        <div>
+          {furniture &&
+          furniture?.map((item: IData) => <CardItem key={item.id} items={item} />)}
+        </div>
       </CategoryList>
       <CategoryList>
         <CategorBusinessCard image={BC_8} title={"Sunglasses"} />
-        {sunglasses &&
-          sunglasses?.map((item) => <CardItem key={item.id} items={item} />)}
+        <div>
+          {sunglasses &&
+          sunglasses?.map((item: IData) => <CardItem key={item.id} items={item} />)}
+        </div>
       </CategoryList>
     </Container>
   );

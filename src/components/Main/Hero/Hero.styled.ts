@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import heroBgImage from "../../../images/hero.jpg";
+import heroBgImage2 from "../../../images/hero2.jpg";
+import heroBgImage3 from "../../../images/hero3.jpg";
 import { ISlide } from "../../../types";
 
 export const HeroSlider = styled.div<ISlide>`
@@ -46,40 +48,13 @@ export const HeroSlider = styled.div<ISlide>`
       background-image: url(${heroBgImage});
     }
     & > div:nth-child(2) {
-      background-image: url(${heroBgImage});
+      background-image: url(${heroBgImage2});
+			background-size: contain;
+			background-position: center;
     }
     & > div:nth-child(3) {
-      background-image: url(${heroBgImage});
+      background-image: url(${heroBgImage3});
+			background-position: 100% 100%;
     }
   }
-
-	/* @keyframes autoSlider {
-		0% {
-			transform: translateX(calc(0 * 1400px));
-		}
-		5% {
-			transform: translateX(calc(-1 * 1400px));
-		}
-		25% {
-			transform: translateX(calc(-1 * 1400px));
-		}
-		30% {
-			transform: translateX(calc(-2 * 1400px));
-		}
-		50% {
-			transform: translateX(calc(-2 * 1400px));
-		}
-		55% {
-			transform: translateX(calc(-1 * 1400px));
-		}
-		75% {
-			transform: translateX(calc(-1 * 1400px));
-		}
-		95% {
-			transform: translateX(calc(0 * 1400px));
-		}
-		100% {
-			transform: translateX(calc(0 * 1400px));
-		}
-	} */
 `;

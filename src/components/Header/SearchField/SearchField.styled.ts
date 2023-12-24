@@ -3,7 +3,7 @@ import { ISearchActiveProps } from "../../../types";
 
 export const SearchLabel = styled.label<ISearchActiveProps>`
   position: relative;
-  height: 60px;
+  height: 40px;
   width: 100%;
   display: ${({ searchActive }) => (!searchActive ? "none" : "block")};
   animation: wilder 250ms ease;
@@ -20,7 +20,7 @@ export const SearchLabel = styled.label<ISearchActiveProps>`
 
 export const SearchInput = styled.input`
   width: 100%;
-  height: 60px;
+  height: 100%;
   padding: 0 20px 0 30px;
   border: none;
   border-radius: 31px;

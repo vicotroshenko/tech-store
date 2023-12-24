@@ -8,7 +8,8 @@ export const BusinessCard = styled.div<IImageProps>`
   align-items: center;
   width: 100%;
   max-width: 233px;
-  min-height: 346px;
+  height: 346px;
+  margin: 0 auto;
   padding-top: 160px;
   padding-bottom: 31px;
   background-image: url(${({ image }) => image});
